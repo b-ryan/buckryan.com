@@ -25,6 +25,11 @@ DEFAULT_PAGINATION = 10
 
 STATIC_PATHS = ["files"]
 
+# These two options make the articles.html page have access to the list of
+# articles -- basically act as the index.html page normally does
+DIRECT_TEMPLATES = ["articles"]
+PAGINATED_DIRECT_TEMPLATES = ["articles"]
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
@@ -71,6 +76,6 @@ MENUITEMS = (("Archives", "/archives.html"),
 STATIC_PATHS = ["extra"]
 EXTRA_PATH_METADATA = {
     "extra/me.png": {"path": "static/me.png"},
-    "extra/resume-2017-01.pdf": {"path": "static/resume-2017-01.pdf"},
+    "extra/resume.pdf": {"path": "static/resume.pdf"},
 }
 LINKS = tuple()
