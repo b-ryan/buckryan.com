@@ -1,5 +1,9 @@
-.venv/
-cache/
-development/
-*.pyc
-publish.sh
+*pyc
+
+/.pelican.dev/
+/.pelican.prod/
+/.sass-cache/
+/node_modules/
+/theme/static/bower/
+tags
+/theme/static/css/build/
