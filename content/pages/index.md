@@ -1,9 +1,19 @@
-Title: buckryan.com
+Title: About Me
 URL: /
 Save_as: index.html
 
 My name is Buck. I am a software engineer living and working in Philadelphia.
-Currently I am working as an independent contractor. Yes I am available!
+Currently I am working as an independent contractor - I would love to work with
+you! I can be reached at buck.ryan@gmail.com.
+
+## DbRhino
+
+In August of this year, I began work on [DbRhino](https://www.dbrhino.com).
+
+![DbRhino Logo](/static/dbrhino-logo.png)
+
+DbRhino aims to help software teams get a grip on their database grants. Please
+let me know if you'd like to learn more!
 
 ## Brief History
 
@@ -19,12 +29,6 @@ Currently I am working as an independent contractor. Yes I am available!
 My resume is available [here](/static/resume.pdf) (last updated Sep,
 2017).
 
-## DbRhino
-
-In August of this year, I began work on [DbRhino](https://www.dbrhino.com).
-DbRhino aims to help software teams get a grip on their database grants. Please
-let me know if you'd like to learn more!
-
 ## Open Source
 
 I am the maintainer of
@@ -34,7 +38,7 @@ GitHub stars) shell prompt generator.
 In early 2017 I wrote [Farmhand](https://github.com/b-ryan/farmhand) - a
 Clojure library for running background jobs.
 
-## Me
+## Personal Life
 
 I am a proud husband and father of two (one yet to be born). I have had many
 hobbies over the years, including:

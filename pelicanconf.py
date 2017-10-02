@@ -77,5 +77,6 @@ STATIC_PATHS = ["extra"]
 EXTRA_PATH_METADATA = {
     "extra/me.png": {"path": "static/me.png"},
     "extra/resume.pdf": {"path": "static/resume.pdf"},
+    "extra/dbrhino-logo.png": {"path": "static/dbrhino-logo.png"},
 }
 LINKS = tuple()
