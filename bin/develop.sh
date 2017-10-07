@@ -15,5 +15,14 @@ pelican --debug --autoreload \
     --settings pelicanconf.py \
     content/ &
 
+sleep 3 # to give the pelican command in the background some time to write its
+        # noise
+
+cat <<EOF
+#######################################################################
+#               starting server: http://localhost:8888                #
+#######################################################################
+EOF
+
 cd $DIR
 python -m pelican.server 8888

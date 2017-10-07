@@ -3,8 +3,10 @@ URL: /
 Save_as: index.html
 
 My name is Buck. I am a software engineer living and working in Philadelphia.
-Currently I am working as an independent contractor - I would love to work with
-you! I can be reached at buck.ryan@gmail.com.
+Currently I am working as an independent contractor. I specialize in all things
+data, with extensive experience in batch and streaming data processing systems.
+I also know quite a bit about the DevOps world. I would love to work with you!
+See [Contact](#contact) below.
 
 ## DbRhino
 
@@ -15,7 +17,25 @@ In August of this year, I began work on [DbRhino](https://www.dbrhino.com).
 DbRhino aims to help software teams get a grip on their database grants. Please
 let me know if you'd like to learn more!
 
-## Brief History
+## Open Source
+
+I am the maintainer of
+[powerline-shell](https://github.com/banga/powerline-shell), a popular (3,300+
+GitHub stars) shell prompt generator.
+
+In early 2017 I wrote [Farmhand](https://github.com/b-ryan/farmhand) - a
+Clojure library for running background jobs.
+
+### Singer!
+
+I am also the author of a few [Singer](https://www.singer.io/) taps:
+
+- [Xero](https://github.com/singer-io/tap-xero/)
+- [Zendesk Chat / Zopim](https://github.com/singer-io/tap-zendesk-chat)
+- [Jira](https://github.com/singer-io/tap-jira)
+- Close.io is in the works
+
+## Brief Schooling / Work History
 
 - 2006-2011 - BS. Mathematics / Computer Science Minor from [Drexel
   University](http://drexel.edu/)
@@ -29,16 +49,7 @@ let me know if you'd like to learn more!
 My resume is available [here](/static/resume.pdf) (last updated Sep,
 2017).
 
-## Open Source
-
-I am the maintainer of
-[powerline-shell](https://github.com/banga/powerline-shell), a popular (3,300+
-GitHub stars) shell prompt generator.
-
-In early 2017 I wrote [Farmhand](https://github.com/b-ryan/farmhand) - a
-Clojure library for running background jobs.
-
-## Personal Life
+## At Home
 
 I am a proud husband and father of two (one yet to be born). I have had many
 hobbies over the years, including:
@@ -55,3 +66,8 @@ hobbies over the years, including:
   been learning Spanish.
 - Occasionally I get into running - my biggest accomplishment was running the
   [Broad Street Run](http://www.broadstreetrun.com/).
+
+## Contact
+
+I can be reached at buck.ryan@gmail.com. My PGP key can be found
+[here](/static/pgp.txt).

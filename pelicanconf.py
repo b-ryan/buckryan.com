@@ -78,5 +78,16 @@ EXTRA_PATH_METADATA = {
     "extra/me.png": {"path": "static/me.png"},
     "extra/resume.pdf": {"path": "static/resume.pdf"},
     "extra/dbrhino-logo.png": {"path": "static/dbrhino-logo.png"},
+    "extra/pgp.txt": {"path": "static/pgp.txt"},
 }
 LINKS = tuple()
+
+
+
+PLUGIN_PATHS = ["/home/buck/src/pelican-plugins"]
+PLUGINS = ["pelican-toc"]
+TOC = {
+    "TOC_HEADERS": "^h[1-6]",
+    "TOC_RUN": "true",
+    "TOC_INCLUDE_TITLE": "true",
+}
