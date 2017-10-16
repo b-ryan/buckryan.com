@@ -69,5 +69,6 @@ hobbies over the years, including:
 
 ## Contact
 
-I can be reached at buck.ryan@gmail.com. My PGP key can be found
-[here](/static/pgp.txt).
+I can be reached at buck@buckryan.com
+
+My PGP key can be found [here](/static/pgp.txt).
