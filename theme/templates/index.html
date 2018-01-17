@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block head %}
+{{ css_link("index.css") }}
+{% endblock %}
+
+{% block content %}
+<section class="container">
+  <h1>About Me</h1>
+  <p>My name is Buck. I am a software engineer living and working in
+  Philadelphia. Currently I am working as an independent contractor. I
+  specialize in all things data, with extensive experience in batch and
+  streaming data processing systems. I also know quite a bit about the DevOps
+  world. I would love to work with you! See Contact below.</p>
+</section>
+<section class="container">
+  <h1>Work</h1>
+  <div class="row align-items-center justify-content-center">
+    <div class="col-md">
+      <a href="https://www.thebuckcodeshere.com"><h3>The Buck Codes Here</h3></a>
+    </div>
+    <div class="col-md">
+      I help startups build and scale their infrastructure and software. With
+      years of experience in DevOps and in building scalable data pipelines, I
+      am now helping teams that do not have full time DevOps engineers.
+    </div>
+  </div>
+</section>
+<section class="container">
+  <h1>Open Source</h1>
+  <div class="row justify-content-center">
+    <div class="col-md text-md-right">
+      <a href="https://github.com/b-ryan/powerline-shell"><h3>powerline-shell</h3></a>
+    </div>
+    <div class="col-md text-md-left">
+      a popular (3,300+ GitHub stars) shell prompt generator
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md text-md-right">
+      <a href="https://github.com/b-ryan/farmhand"><h3>Farmhand</h3></a>
+    </div>
+    <div class="col-md text-md-left">
+      Clojure job-scheduling library
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md text-md-right">
+      <a href="https://www.singer.io/"><h3>Singer</h3></a>
+    </div>
+    <div class="col-md text-md-left">
+      I have authored several Singer taps, like
+      <ul>
+        <li><a href="https://github.com/singer-io/tap-xero/">Xero</a></li>
+        <li><a href="https://github.com/singer-io/tap-zendesk-chat/">Zendesk Chat / Zopim</a></li>
+        <li><a href="https://github.com/singer-io/tap-jira/">Jira</a></li>
+        <li><a href="https://github.com/singer-io/tap-codat/">Codat</a></li>
+        <li><a href="https://github.com/singer-io/tap-listrak/">Listrak</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <h1>At Home</h1>
+  <p>I am a proud husband and father of two (one yet to be born). I have had
+  many hobbies over the years, including:</p>
+  <ul>
+    <li>Most recently I joined the Liberty Sailing Club because sailing is awesome.</li>
+    <li>I started playing cello in 2014 - maybe someday I'll be good enough to
+      put some of my music on this site.</li>
+    <li>I played flute for many years, including in the Drexel Concert Band.</li>
+    <li>Swimming is my sport of choice, although it's been years since I have
+      been able to regularly swim.</li>
+    <li>Languages have always interested me. I spent several years studying
+      German while at Drexel and did two studies abroad in Germany. More
+      recently I have been learning Spanish.</li>
+    <li>Occasionally I get into running - my biggest accomplishment was running
+      the Broad Street Run.</li>
+  </ul>
+</section>
+<section class="container">
+  <h1>Contact</h1>
+  <p>I can be reached at buck@buckryan.com</p>
+  <p>My PGP key can be found <a href="{{SITEURL}}/static/pgp.txt">here</a></p>
+</section>
+{% endblock %}

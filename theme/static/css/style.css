@@ -1,0 +1,13 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 1.6em;
+}
+nav.navbar {
+    padding: 1.5rem 0;
+}
+nav.navbar li.active {
+    background-color: #ddd;
+}
+dd {
+    padding-bottom: 0.75em;
+}

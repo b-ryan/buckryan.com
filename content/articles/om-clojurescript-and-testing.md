@@ -1,7 +1,7 @@
 Title: Om, Clojurescript, and Testing
 Date: 2015-07-16
-Category:
-Tags:
+Category: Programming
+Tags: clojure, om
 Author: Buck Ryan
 Summary:
 

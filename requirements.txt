@@ -1,3 +1,5 @@
-pelican
+pelican>=3.3
 markdown
+mkdocs
+mkdocs-material
 beautifulsoup4

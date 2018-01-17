@@ -1,91 +1,30 @@
-AUTHOR = u"Buck Ryan"
-SITENAME = u"buckryan.com"
-SITESUBTITLE = u""
-SITEURL = "http://localhost:8888"
+#!/usr/bin/env python
+import time
 
+AUTHOR = "Buck Ryan"
+SITENAME = "Buck Ryan"
+SITEURL = "http://localhost:40101"
+TAGLINE = "Software Engineer by Day, Husband et. al by Night"
 TIMEZONE = "America/New_York"
-
-DEFAULT_LANG = u"en"
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-
-# Blogroll
-LINKS =  (("Pelican", "http://getpelican.com/"),
-          ("Python.org", "http://python.org/"),
-          ("Jinja2", "http://jinja.pocoo.org/"),
-          ("You can modify those links in your config file", "#"),)
-
-SOCIAL = (("twitter", "https://twitter.com/_buckryan"),
-          ("github", "https://github.com/b-ryan"),)
-
-DEFAULT_PAGINATION = 10
-
-STATIC_PATHS = ["files"]
-
-# These two options make the articles.html page have access to the list of
-# articles -- basically act as the index.html page normally does
-DIRECT_TEMPLATES = ["articles"]
-PAGINATED_DIRECT_TEMPLATES = ["articles"]
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
-DISPLAY_PAGES_ON_MENU = True
-DISPLAY_CATEGORIES_ON_MENU = False
-DISPLAY_AUTHOR = False
-DISPLAY_FOOTER = False
-
-THEME = "flex"
-PATH = "content"
-SITELOGO = "/static/me.png"
-# FAVICON = "https://www.dbrhino.com/theme/img/dbrhino-logo.ico"
-ROBOTS = "index, follow"
-CC_LICENSE = {
-    "name": "Creative Commons Attribution-ShareAlike",
-    "version": "4.0",
-    "slug": "by-sa"
+DEFAULT_DATE_FORMAT = "%a %B %d,%Y"
+DEFAULT_LANG = "en"
+TEMPLATE_PAGES = {
+    # eg: "pricing.html": "pricing.html",
 }
-COPYRIGHT_YEAR = 2017
-FEED_ALL_ATOM = "feeds/all.atom.xml"
-CATEGORY_FEED_ATOM = "feeds/%s.atom.xml"
-SOCIAL = (("github", "https://github.com/b-ryan"),
-          ("twitter", "https://twitter.com/_buckryan"),
-          ("rss", "//www.buckryan.com/feeds/all.atom.xml"))
-
-SITEMAP = {
-    "format": "xml",
-    "priorities": {
-        "articles": 0.6,
-        "indexes": 0.6,
-        "pages": 0.5,
-    },
-    "changefreqs": {
-        "articles": "monthly",
-        "indexes": "daily",
-        "pages": "monthly",
-    }
-}
-MAIN_MENU = True
-MENUITEMS = (("Archives", "/archives.html"),
-             ("Categories", "/categories.html"),
-             ("Tags", "/tags.html"),)
-
+THEME = "theme"
+CACHE_BUST = str(time.time())
+MENUITEMS = [
+    ("Articles", "/archives.html"),
+    ("Categories", "/categories.html"),
+    ("Tags", "/tags.html"),
+]
 STATIC_PATHS = ["extra"]
 EXTRA_PATH_METADATA = {
-    "extra/me.png": {"path": "static/me.png"},
     "extra/resume.pdf": {"path": "static/resume.pdf"},
-    "extra/dbrhino-logo.png": {"path": "static/dbrhino-logo.png"},
     "extra/pgp.txt": {"path": "static/pgp.txt"},
 }
-LINKS = tuple()
-
-
-
 PLUGIN_PATHS = ["/home/buck/src/pelican-plugins"]
-PLUGINS = ["pelican-toc"]
+PLUGINS = ["pelican-toc", "asset_functions"]
 TOC = {
     "TOC_HEADERS": "^h[1-6]",
     "TOC_RUN": "true",

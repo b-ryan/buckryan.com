@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    padding: 0.5em 0;
+}
+section {
+    text-align: center;
+}
+section > div > div {
+    padding: 0.5em 1em;
+}
+ul {
+    text-align: left;
+}
