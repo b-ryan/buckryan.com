@@ -17,7 +17,7 @@ build() {
 
 deploy() {
     _green "rsyncing code"
-    aws s3 sync --delete $PELICAN_OUTPUT_DIR/ s3://buckryan.com/
+    aws s3 sync --delete $PELICAN_OUTPUT_DIR/ s3://www.buckryan.com/
 }
 
 main() {
