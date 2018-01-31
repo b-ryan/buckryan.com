@@ -23,6 +23,6 @@ Osama bin Laden and the attacks on 9/11, or anything that has happened since
 then - this is the book for you.
 
 Seriously, I can't recommend this book highly enough. It is time for the us to
-stand up and put a stop to these wars. Whether you are a Republic, Democrat, or
-anarchist like me, there is one thing that can and should unite us all: ending
-these unjust wars.
+stand up and put a stop to these wars. Whether you are a Republican, Democrat,
+or anarchist like me, there is one thing that can and should unite us all:
+ending these unjust wars.
