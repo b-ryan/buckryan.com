@@ -5,7 +5,7 @@ if [[ -z "$title" ]]; then
     exit 1
 fi
 
-filename="content/$(echo "$title" | awk '{print tolower($0)}' | sed 's/ /-/g').md"
+filename="content/articles/$(echo "$title" | awk '{print tolower($0)}' | sed 's/ /-/g').md"
 if [[ -f "$filename" ]]; then
     echo "File '$filename' already exists" >&2
     exit 1
