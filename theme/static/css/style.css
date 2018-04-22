@@ -1,13 +1,42 @@
+:root {
+    --theme-red: #E05050;
+}
+
 body {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     line-height: 1.6em;
 }
 nav.navbar {
     padding: 1.5rem 0;
+}
+nav.navbar a {
+    color: var(--theme-red);
 }
 nav.navbar li.active {
     background-color: #ddd;
 }
 dd {
     padding-bottom: 0.75em;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+#open-source {
+    background-color: var(--theme-red);
+    color: white;
+}
+.projects-gallery > .project {
+    flex-basis: 0;
+    flex-grow: 1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.project > a {
+    margin: 1rem;
 }
