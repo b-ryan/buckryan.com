@@ -34,8 +34,14 @@ class Plugin(object):
                 "/theme/img/{}?v={}"
                 .format(filename, settings["CACHE_BUST"])
             )
+        def js_url(filename):
+            return (
+                "/theme/js/{}?v={}"
+                .format(filename, settings["CACHE_BUST"])
+            )
         generator.context["css_link"] = css_link
         generator.context["img_url"] = img_url
+        generator.context["js_url"] = js_url
 
 plugin = Plugin()
 

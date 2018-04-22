@@ -32,7 +32,8 @@
     <div class="d-md-flex flex-row text-center projects-gallery">
       <div class="d-flex flex-column project">
         <a href="https://github.com/b-ryan/powerline-shell"><h3>powerline-shell</h3></a>
-        <span>a popular (3,300+ GitHub stars) shell prompt generator</span>
+        <span>a popular (<span id="powerline-shell-star-count">3,800+</span>
+          GitHub stars) shell prompt generator</span>
       </div>
       <div class="d-flex flex-column project">
         <a href="https://github.com/b-ryan/farmhand"><h3>Farmhand</h3></a>
@@ -77,4 +78,14 @@
   <p>I can be reached at buck@buckryan.com</p>
   <p>My PGP key can be found <a href="{{SITEURL}}/static/pgp.txt">here</a></p>
 </section>
+{% endblock %}
+
+{% block js %}
+<script>
+$(function() {
+  githubStars("b-ryan/powerline-shell", function(stars) {
+    $("#powerline-shell-star-count").html(stars);
+  });
+})
+</script>
 {% endblock %}
